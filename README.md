@@ -48,7 +48,8 @@ npm i -g nodeunit
 
 Is recommended to first write test before start writing it's code
 
-...Test.js
+Test.js
+
 {
 
   var objectNameToTest = require("../lib/objectFileName").objectName;
