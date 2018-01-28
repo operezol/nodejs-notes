@@ -42,4 +42,8 @@ node
 
 npm i -g nodeunit
 
+#### Use nodeunit to test entire test folder from node terminal
+
+nodeunit test
+
 
