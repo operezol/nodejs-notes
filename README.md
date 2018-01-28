@@ -49,6 +49,7 @@ npm i -g nodeunit
 Is recommended to first write test before start writing it's code
 
 ...Test.js
+
   var objectNameToTest = require("../lib/objectFileName"),objectName;
 
 #### Use nodeunit to test entire test folder from node terminal
