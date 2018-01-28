@@ -2,7 +2,7 @@
 Basic node.js notes
 
 ## Index
-- [Node.js installation in linux](docs/README.md/#nodejs-installation-in-linux)
+- [Node.js installation in linux](https://github.com/operezol/nodejs-notes/blob/master/README.md#nodejs-installation-in-linux)
 - [Run node in terminal in REPL mode \(Read Evaluate Print Loop\)](docs/README.md/#run-node-in-terminal-in-repl-mode-read-evaluate-print-loop)
 
 ## Node.js installation in linux
