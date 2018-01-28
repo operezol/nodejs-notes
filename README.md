@@ -11,6 +11,11 @@ sudo apt-get install -y build-essential
 ## Run node in terminal in REPL mode (Read Evaluate Print Loop)
 
 node
-
 2+2
+
+### Break Terminal REPL input loop
+
+.break
+
+
 
