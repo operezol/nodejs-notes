@@ -49,7 +49,7 @@ npm i -g nodeunit
 Is recommended to first write test before start writing it's code
 
 ...Test.js
-
+{
   var objectNameToTest = require("../lib/objectFileName").objectName;
   
   exports["Test description"] = function(test){
@@ -67,6 +67,7 @@ Is recommended to first write test before start writing it's code
     test.ok(booleanValue);
     
   }
+}
 
 #### Use nodeunit to test entire test folder from node terminal
 
