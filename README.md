@@ -53,12 +53,19 @@ Is recommended to first write test before start writing it's code
   var objectNameToTest = require("../lib/objectFileName").objectName;
   
   exports["Test description"] = function(test){
+  
     var whatEver = objectNameToTest.getWhatEver();
+    
     var whatEverElse = 0;
+    
     var booleanValue = whatEver > whatEverElse;
+    
     test.equal(whatEver, whatEverElse);
+    
     test.notEqual(whatEver, whatEverElse);
+    
     test.ok(booleanValue);
+    
   }
 
 #### Use nodeunit to test entire test folder from node terminal
