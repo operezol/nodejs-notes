@@ -9,6 +9,7 @@ Basic node.js notes
     - [Create a test](https://github.com/operezol/nodejs-notes/blob/master/README.md#create-a-test)
     - [Reset Object Tested after each test](https://github.com/operezol/nodejs-notes/blob/master/README.md#reset-object-tested-after-each-test)
     - [Use nodeunit to test entire test folder from node terminal](https://github.com/operezol/nodejs-notes/blob/master/README.md#use-nodeunit-to-test-entire-test-folder-from-node-terminal)
+  - [Install express.js to create a web server with npm](https://github.com/operezol/nodejs-notes/blob/master/README.md#install-expressjs-to-create-a-web-server-with-npm)
 
 ## Node.js installation in linux
 
