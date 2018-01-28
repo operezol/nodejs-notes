@@ -12,6 +12,7 @@ Basic node.js notes
   - [Install express.js to build a web server with npm](https://github.com/operezol/nodejs-notes/blob/master/README.md#install-expressjs-to-create-a-web-server-with-npm)
     - [Build web server with express](https://github.com/operezol/nodejs-notes/blob/master/README.md#build-web-server-with-express)
       - [Routing with express](https://github.com/operezol/nodejs-notes/blob/master/README.md#routing-with-express)
+      - [Getting parameters from URL with express](https://github.com/operezol/nodejs-notes/blob/master/README.md#getting-parameters-from-url-with-express)
 
 ## Node.js installation in linux
 
@@ -116,7 +117,7 @@ app.get("/section",function(req,res){
 
 ```
 
-###### Getting parameters from URL with express
+##### Getting parameters from URL with express
 
  Given next URL with parameters on it:
  
