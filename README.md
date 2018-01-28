@@ -73,6 +73,14 @@ Is recommended to first write test before start writing it's code
   
 ```
 
+#### Reset Object Tested after each test
+```
+export["setUp"]=function(callback){
+  objectNameToTest.reset(); // has to be declarated on object code
+  callback();
+}
+
+
 #### Use nodeunit to test entire test folder from node terminal
 
 nodeunit test
