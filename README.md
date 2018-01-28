@@ -97,17 +97,36 @@ npm i -g express
 #### Build web server with express
 
 ```
-
 var express = require("express");
 
 var app = express();
 
 app.listen(3000);
+```
+##### Routing with express
 
+```
 app.get("/",function(req,res){
   res.send("Hello, world!");
 });
+app.get("/section",function(req,res){
+  res.send("Welcome to section!");
+});
 
 ```
+
+###### Getting parameters from URL with express
+
+ Given next URL with parameters on it:
+ 
+ localhost:3000/section?parameters=1,2,3,4,5,6
+ 
+```
+app.get("/section",function(req,res){
+  var parameters = req.query.parameters.split(",");
+});
+
+```
+
 
 
