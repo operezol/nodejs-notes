@@ -80,7 +80,7 @@ export["setUp"]=function(callback){
   objectNameToTest.reset(); // has to be declarated on object code
   callback();
 }
-
+```
 
 #### Use nodeunit to test entire test folder from node terminal
 
