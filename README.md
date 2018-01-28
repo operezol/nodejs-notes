@@ -18,5 +18,7 @@ node
 .break
 ( or ctrl +c )
 
+### Getting node help (basic commands)
 
+.help
 
