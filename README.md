@@ -52,9 +52,9 @@ Test.js
 
 {
 
-  var objectNameToTest = require("../lib/objectFileName").objectName;
+  var objectNameToTest = require\("../lib/objectFileName"\).objectName;
   
-  exports["Test description"] = function(test)\{
+  exports\["Test description"\] = function(test)\{
   
     var whatEver = objectNameToTest.getWhatEver();
     
