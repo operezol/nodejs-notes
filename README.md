@@ -34,4 +34,8 @@ node
 
 ( or ctrl + c )
 
+## Install nodeunit with npm for to unit testing 
+
+npm i -g nodeunit
+
 
