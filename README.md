@@ -16,6 +16,7 @@ node
 ### Break Terminal REPL input loop
 
 .break
+( or ctrl +c )
 
 
 
