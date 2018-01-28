@@ -50,7 +50,7 @@ Is recommended to first write test before start writing it's code
 
 \/test\/Test\.js
 
-'''
+```
 
   var objectNameToTest = require\(\"../lib/objectFileName\"\)\.objectName\;
   
@@ -70,7 +70,8 @@ Is recommended to first write test before start writing it's code
     
   \}
   
-'''
+  
+```
 
 #### Use nodeunit to test entire test folder from node terminal
 
