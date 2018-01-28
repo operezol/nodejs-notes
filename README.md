@@ -1,6 +1,10 @@
 # node.js Notes
 Basic node.js notes
 
+## Index
+
+[Run node in terminal in REPL mode (Read Evaluate Print Loop)][https://github.com/operezol/nodejs-notes#run-node-in-terminal-in-repl-mode-read-evaluate-print-loop]
+
 ## Node.js installation in linux
 
 sudo apt install curl && 
