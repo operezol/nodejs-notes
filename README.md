@@ -69,6 +69,8 @@ Is recommended to first write test before start writing it's code
     
     test.ok(booleanValue);
     
+    test.done();
+    
   }
   
   
