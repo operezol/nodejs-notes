@@ -4,7 +4,7 @@ Basic node.js notes
 ## Index
 - [Node.js installation in linux](https://github.com/operezol/nodejs-notes/blob/master/README.md#nodejs-installation-in-linux)
 - [Run node in terminal in REPL mode \(Read Evaluate Print Loop\)](https://github.com/operezol/nodejs-notes/blob/master/README.md#run-node-in-terminal-in-repl-mode-read-evaluate-print-loop)
-- [npm]()  
+- [npm](https://github.com/operezol/nodejs-notes/blob/master/README.md#npm)  
   - [Install nodeunit with npm for to unit testing ](https://github.com/operezol/nodejs-notes/blob/master/README.md#install-nodeunit-with-npm-for-to-unit-testing)
 
 ## Node.js installation in linux
