@@ -6,6 +6,7 @@ Basic node.js notes
 - [Run node in terminal in REPL mode \(Read Evaluate Print Loop\)](https://github.com/operezol/nodejs-notes/blob/master/README.md#run-node-in-terminal-in-repl-mode-read-evaluate-print-loop)
 - [npm (node package manager)](https://github.com/operezol/nodejs-notes/blob/master/README.md#npm-node-package-manager)  
   - [Install missing packages (dependencies) from cloned repository](https://github.com/operezol/nodejs-notes/blob/master/README.md#install-missing-packages-dependencies-from-cloned-repository)
+  - [Initialize a new node repository](https://github.com/operezol/nodejs-notes/blob/master/README.md#initialize-a-new-node-repository)
   - [Install nodeunit with npm for to unit testing ](https://github.com/operezol/nodejs-notes/blob/master/README.md#install-nodeunit-with-npm-for-to-unit-testing)
     - [Create a test](https://github.com/operezol/nodejs-notes/blob/master/README.md#create-a-test)
     - [Reset Object Tested after each test](https://github.com/operezol/nodejs-notes/blob/master/README.md#reset-object-tested-after-each-test)
