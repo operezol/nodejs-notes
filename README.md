@@ -108,6 +108,16 @@ or the shorthand
 npm i packageName -D
 ```
 
+#### Add package globaly (for all projects
+
+```
+npm install packageName --global
+```
+or the shorthand
+```
+npm i packageName -g
+```
+
 ### Install nodeunit with npm for to unit testing 
 
 ```
