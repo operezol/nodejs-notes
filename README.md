@@ -5,6 +5,7 @@ Basic node.js notes
 - [Node.js installation in linux](https://github.com/operezol/nodejs-notes/blob/master/README.md#nodejs-installation-in-linux)
 - [Run node in terminal in REPL mode \(Read Evaluate Print Loop\)](https://github.com/operezol/nodejs-notes/blob/master/README.md#run-node-in-terminal-in-repl-mode-read-evaluate-print-loop)
 - [npm (node package manager)](https://github.com/operezol/nodejs-notes/blob/master/README.md#npm-node-package-manager)  
+  - [Install missing packages (dependencies) from cloned repository](https://github.com/operezol/nodejs-notes/blob/master/README.md#install-missing-packages-dependencies-from-cloned-repository)
   - [Install nodeunit with npm for to unit testing ](https://github.com/operezol/nodejs-notes/blob/master/README.md#install-nodeunit-with-npm-for-to-unit-testing)
     - [Create a test](https://github.com/operezol/nodejs-notes/blob/master/README.md#create-a-test)
     - [Reset Object Tested after each test](https://github.com/operezol/nodejs-notes/blob/master/README.md#reset-object-tested-after-each-test)
@@ -13,7 +14,7 @@ Basic node.js notes
     - [Build web server with express](https://github.com/operezol/nodejs-notes/blob/master/README.md#build-web-server-with-express)
       - [Routing with express](https://github.com/operezol/nodejs-notes/blob/master/README.md#routing-with-express)
       - [Getting parameters from URL with express](https://github.com/operezol/nodejs-notes/blob/master/README.md#getting-parameters-from-url-with-express)
-  - [Install missing packages (dependencies) from cloned repository](https://github.com/operezol/nodejs-notes/blob/master/README.md#install-missing-packages-dependencies-from-cloned-repository)
+
 
 ## Node.js installation in linux
 
@@ -45,6 +46,18 @@ node
 ( or ctrl + c )
 
 ## npm (node package manager)
+
+### Install missing packages (dependencies) from cloned repository
+
+For weight purposes, node repositories do not contain the necessary packages (dependencies). That's why they should be installed / downloaded for the first time with this command.
+
+```
+npm install
+```
+
+### Initialize a new node repository
+
+
 
 ### Install nodeunit with npm for to unit testing 
 
@@ -129,14 +142,6 @@ app.get("/section",function(req,res){
   var parameters = req.query.parameters.split(",");
 });
 
-```
-
-### Install missing packages (dependencies) from cloned repository
-
-For weight purposes, node repositories do not contain the necessary packages (dependencies). That's why they should be installed / downloaded for the first time with this command.
-
-```
-npm install
 ```
 
 
