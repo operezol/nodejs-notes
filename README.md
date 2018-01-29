@@ -130,5 +130,12 @@ app.get("/section",function(req,res){
 
 ```
 
+### Install missing packages from cloned repository
+
+For weight purposes, node repositories do not contain the necessary packages. That's why they should be installed / downloaded for the first time with this command.
+
+```
+npm install
+```
 
 
