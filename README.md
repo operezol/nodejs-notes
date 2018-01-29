@@ -13,7 +13,7 @@ Basic node.js notes
     - [Build web server with express](https://github.com/operezol/nodejs-notes/blob/master/README.md#build-web-server-with-express)
       - [Routing with express](https://github.com/operezol/nodejs-notes/blob/master/README.md#routing-with-express)
       - [Getting parameters from URL with express](https://github.com/operezol/nodejs-notes/blob/master/README.md#getting-parameters-from-url-with-express)
-  - [Install missing packages from cloned repository](https://github.com/operezol/nodejs-notes/blob/master/README.md#install-missing-packages-from-cloned-repository)
+  - [Install missing packages (dependencies) from cloned repository](https://github.com/operezol/nodejs-notes/blob/master/README.md#install-missing-packages-from-cloned-repository)
 
 ## Node.js installation in linux
 
@@ -131,9 +131,9 @@ app.get("/section",function(req,res){
 
 ```
 
-### Install missing packages from cloned repository
+### Install missing packages (dependencies) from cloned repository
 
-For weight purposes, node repositories do not contain the necessary packages. That's why they should be installed / downloaded for the first time with this command.
+For weight purposes, node repositories do not contain the necessary packages (dependencies). That's why they should be installed / downloaded for the first time with this command.
 
 ```
 npm install
