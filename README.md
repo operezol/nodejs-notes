@@ -56,7 +56,6 @@ For weight purposes, node repositories do not contain the necessary packages (de
 npm install
 ```
 
-
 ### Initialize a new node repository
 
 When a new node repository / project is started, libraries / packages / dependencies are needed and, to declare them, a package.json file is required. NPM can create this file with this command:
@@ -64,18 +63,26 @@ When a new node repository / project is started, libraries / packages / dependen
 ```
 npm init
 ```
+
+#### Add packages to package.json with npm
+
 Later packages can be added within the file package.json with the following command.
 
 ```
 npm install packageName --save
 ```
-All configurations within the package.json file can be edited and subsequently consulted through npm for their pair of setters and getters.
+
+#### get, set configurations to package.json with npm
+
+All configurations within the package.json file can be edited, consulted, or deleted through npm for their pair of setters and getters.
 
 ```
 npm set init-author-name 'operezol'
 npm get init-author-name
-
+npm config delete init-author-name
 ```
+
+
 
 ### Install nodeunit with npm for to unit testing 
 
@@ -107,12 +114,11 @@ Is recommended to first write test before start writing it's code
     
     test.done();
     
-  }
-  
-  
+  } 
 ```
 
 #### Reset Object Tested after each test
+
 ```
 export["setUp"]=function(callback){
   objectNameToTest.reset(); // has to be declarated on object code
@@ -137,6 +143,7 @@ var app = express();
 
 app.listen(3000);
 ```
+
 ##### Routing with express
 
 ```
