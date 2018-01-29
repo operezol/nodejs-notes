@@ -69,18 +69,6 @@ When a new node repository / project is started, libraries / packages / dependen
 npm init
 ```
 
-#### Add packages to package.json with npm
-
-Later packages can be added within the file package.json with the following command.
-
-```
-npm install packageName --save
-```
-or the shorthand
-```
-npm i packageName -S
-```
-
 #### get, set, delete configurations to package.json with npm
 
 All configurations within the package.json file can be edited, consulted, or deleted through npm for their pair of setters and getters.
@@ -95,6 +83,28 @@ Or the shorthand
 npm set init-author-name 'operezol'
 npm get init-author-name
 npm config delete init-author-name
+```
+
+#### Add packages to package.json with npm
+
+Later packages can be added within the file package.json with the following command.
+
+```
+npm install packageName --save
+```
+or the shorthand
+```
+npm i packageName -S
+```
+
+#### Add package for development environment
+
+```
+npm install packageName --save-dev
+```
+or the shorthand
+```
+npm i packageName -D
 ```
 
 ### Install nodeunit with npm for to unit testing 
