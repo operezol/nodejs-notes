@@ -58,7 +58,11 @@ npm install
 
 ### Initialize a new node repository
 
-When a new node repository / project is started, libraries / packages / dependencies are needed and, to declare them, a package.json file is required.
+When a new node repository / project is started, libraries / packages / dependencies are needed and, to declare them, a package.json file is required. NPM can create this file with this command:
+
+```
+npm init
+```
 
 ### Install nodeunit with npm for to unit testing 
 
