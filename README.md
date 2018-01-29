@@ -8,7 +8,7 @@ Basic node.js notes
   - [Install missing packages (dependencies) from cloned repository](https://github.com/operezol/nodejs-notes/blob/master/README.md#install-missing-packages-dependencies-from-cloned-repository)
   - [Initialize a new node repository](https://github.com/operezol/nodejs-notes/blob/master/README.md#initialize-a-new-node-repository)
     - [Add packages to package.json with npm](https://github.com/operezol/nodejs-notes/blob/master/README.md#add-packages-to-packagejson-with-npm)
-    - [get, set configurations to package.json with npm](https://github.com/operezol/nodejs-notes/blob/master/README.md#get-set-configurations-to-packagejson-with-npm)
+    - [get, set, delete configurations to package.json with npm](https://github.com/operezol/nodejs-notes/blob/master/README.md#get-set-delete-configurations-to-packagejson-with-npm)
   - [Install nodeunit with npm for to unit testing ](https://github.com/operezol/nodejs-notes/blob/master/README.md#install-nodeunit-with-npm-for-to-unit-testing)
     - [Create a test](https://github.com/operezol/nodejs-notes/blob/master/README.md#create-a-test)
     - [Reset Object Tested after each test](https://github.com/operezol/nodejs-notes/blob/master/README.md#reset-object-tested-after-each-test)
@@ -74,7 +74,7 @@ Later packages can be added within the file package.json with the following comm
 npm install packageName --save
 ```
 
-#### get, set configurations to package.json with npm
+#### get, set, delete configurations to package.json with npm
 
 All configurations within the package.json file can be edited, consulted, or deleted through npm for their pair of setters and getters.
 
