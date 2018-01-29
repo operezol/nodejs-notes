@@ -9,7 +9,7 @@ Basic node.js notes
     - [Create a test](https://github.com/operezol/nodejs-notes/blob/master/README.md#create-a-test)
     - [Reset Object Tested after each test](https://github.com/operezol/nodejs-notes/blob/master/README.md#reset-object-tested-after-each-test)
     - [Use nodeunit to test entire test folder from node terminal](https://github.com/operezol/nodejs-notes/blob/master/README.md#use-nodeunit-to-test-entire-test-folder-from-node-terminal)
-  - [Install express.js to build a web server with npm](https://github.com/operezol/nodejs-notes/blob/master/README.md#install-expressjs-to-create-a-web-server-with-npm)
+  - [Install express.js to build a web server with npm](https://github.com/operezol/nodejs-notes/blob/master/README.md#install-expressjs-to-build-a-web-server-with-npm)
     - [Build web server with express](https://github.com/operezol/nodejs-notes/blob/master/README.md#build-web-server-with-express)
       - [Routing with express](https://github.com/operezol/nodejs-notes/blob/master/README.md#routing-with-express)
       - [Getting parameters from URL with express](https://github.com/operezol/nodejs-notes/blob/master/README.md#getting-parameters-from-url-with-express)
