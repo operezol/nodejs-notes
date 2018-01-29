@@ -108,7 +108,7 @@ or the shorthand
 npm i packageName -D
 ```
 
-#### Add package globaly (for all projects
+#### Add package globaly (for all projects)
 
 ```
 npm install packageName --global
