@@ -69,6 +69,13 @@ Later packages can be added within the file package.json with the following comm
 ```
 npm install packageName --save
 ```
+All configurations within the package.json file can be edited and subsequently consulted through npm for their pair of setters and getters.
+
+```
+npm set init-author-name 'operezol'
+npm get init-author-name
+
+```
 
 ### Install nodeunit with npm for to unit testing 
 
