@@ -55,6 +55,11 @@ For weight purposes, node repositories do not contain the necessary packages (de
 ```
 npm install
 ```
+Later packages can be added within the file package.json with the following command.
+
+```
+npm install packageName --save
+```
 
 ### Initialize a new node repository
 
