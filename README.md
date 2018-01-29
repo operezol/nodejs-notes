@@ -22,8 +22,11 @@ Basic node.js notes
 ## Node.js installation in linux
 
 sudo apt install curl && 
+
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash - && 
+
 sudo apt-get install -y nodejs && 
+
 sudo apt-get install -y build-essential
 
 ## Run node in terminal in REPL mode (Read Evaluate Print Loop)
@@ -73,22 +76,32 @@ Later packages can be added within the file package.json with the following comm
 ```
 npm install packageName --save
 ```
+or the shorthand
+```
+npm i packageName -S
+```
 
 #### get, set, delete configurations to package.json with npm
 
 All configurations within the package.json file can be edited, consulted, or deleted through npm for their pair of setters and getters.
 
 ```
+npm config set init-author-name 'operezol'
+npm config get init-author-name
+npm config delete init-author-name
+```
+Or the shorthand
+```
 npm set init-author-name 'operezol'
 npm get init-author-name
 npm config delete init-author-name
 ```
 
-
-
 ### Install nodeunit with npm for to unit testing 
 
+```
 npm i -g nodeunit
+```
 
 #### Create a test
 
