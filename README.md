@@ -9,6 +9,7 @@ Basic node.js notes
   - [Initialize a new node repository](https://github.com/operezol/nodejs-notes/blob/master/README.md#initialize-a-new-node-repository)
     - [get, set, delete configurations to package.json with npm](https://github.com/operezol/nodejs-notes/blob/master/README.md#get-set-delete-configurations-to-packagejson-with-npm)
     - [Add packages to package.json with npm](https://github.com/operezol/nodejs-notes/blob/master/README.md#add-packages-to-packagejson-with-npm)
+    - [Add package for development environment](https://github.com/operezol/nodejs-notes/blob/master/README.md#add-package-for-development-environment)
   - [Install nodeunit with npm for to unit testing ](https://github.com/operezol/nodejs-notes/blob/master/README.md#install-nodeunit-with-npm-for-to-unit-testing)
     - [Create a test](https://github.com/operezol/nodejs-notes/blob/master/README.md#create-a-test)
     - [Reset Object Tested after each test](https://github.com/operezol/nodejs-notes/blob/master/README.md#reset-object-tested-after-each-test)
