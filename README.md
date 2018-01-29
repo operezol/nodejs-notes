@@ -43,7 +43,7 @@ node
 
 ( or ctrl + c )
 
-## npm
+## npm (node package manager)
 
 ### Install nodeunit with npm for to unit testing 
 
